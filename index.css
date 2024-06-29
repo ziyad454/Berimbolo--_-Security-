@@ -1,0 +1,29 @@
+.navbar{
+    /* border-bottom: 5px solid rgb(0, 94, 255); */
+    box-shadow: 0 2px 7px rgb(0, 94, 255);
+    background-color: rgba(88, 85, 85, 0.781);
+}
+header{
+    height: 40rem;
+    margin-top: 4rem !important;
+
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(./assets/3d-internet-secuirty-badge.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.header-text{
+    text-align: center;
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+#about h5{
+    letter-spacing: 5px;
+}
+#about img{
+    min-height: 100%;
+}
